@@ -15,3 +15,5 @@ public class TaskFor08 {
         }
     }
 }
+
+//Not Efficient, if there is 11th element, we will have unwanted empty space
