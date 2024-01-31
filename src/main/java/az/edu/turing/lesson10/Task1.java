@@ -5,17 +5,19 @@ import java.util.Scanner;
 public class Task1 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double a = scanner.nextInt();
+        double a = scanner.nextDouble();
         int c = scanner.nextInt();
-        doubleMethod(double a);
-        intMethod(int c);
+        doubleMethod(a);
+        intMethod(c);
     }
-}
 
-public static double doubleMethod(double d){
-    return d + 2;
-}
 
-public static int intMethod(int c){
-    return c + 2;
+    public static double doubleMethod(double d) {
+        return d + 2;
+    }
+
+    public static int intMethod(int c) {
+        return c + 2;
+    }
+
 }
