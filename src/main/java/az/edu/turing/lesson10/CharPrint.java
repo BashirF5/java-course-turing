@@ -1,4 +1,4 @@
-package az.edu.turing.lesson10;
+/*package az.edu.turing.lesson10;
 
 import java.util.Scanner;
 
@@ -11,7 +11,8 @@ public class CharPrint {
 
     public static void printChar(char word){
         for (int i = 0; i < array.length; i++) {
-            System.out.println(char[i]);
-        }
+            /*System.out.println(char[i])*/;
+/*}
     }
 }
+*/
